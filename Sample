@@ -1,6 +1,1 @@
-{"query" : "query getElibility {GetCurtailmentEligibility(brand:AUDI,country:CAN, accountNumber:\"299252002\") 
-{
-  isEligibleForCurtailment
-}
-  
-}"}
+{"query" : "query getElibility {GetCurtailmentEligibility(brand:AUDI,country:CAN, accountNumber:\"299252002\") {isEligibleForCurtailment}}"}
